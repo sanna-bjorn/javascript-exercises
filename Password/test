@@ -1,0 +1,16 @@
+let input = prompt("Who's there?");
+
+if (input === "Admin") {
+  let password = prompt("Type your password", "");
+  if (password === "TheMaster") {
+    alert("Welcome!");
+  } else if (input === "" || input === null) {
+    alert("Canceled");
+  } else {
+    alert("Wrong password!");
+  }
+} else if (input === "" || input === null) {
+  alert("Canceled");
+} else {
+  ("I don't know you");
+}
