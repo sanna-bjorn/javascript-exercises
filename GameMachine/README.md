@@ -1,3 +1,5 @@
+Part 2:
+
 For this task you are given three variables:
 
 machineActive — contains an indicator of whether the answer machine is switched on or not (true/false)
@@ -15,3 +17,6 @@ Score of 70 to 89 — "That\'s a great score, you really know your stuff."
 Score of 90 to 100 — "What an amazing score! Did you cheat? Are you for real?"
 
 Try updating the live code below to recreate the finished example. After you've entered your code, try changing machineActive to true, to see if it works.
+
+Part 3:
+In this task you need to take the code you wrote for the second task, and rewrite the inner if...else if...else to use a switch statement instead.
